@@ -33,21 +33,6 @@ button:hover{
  background-color: #092e10;
 
 }
-.certificate{
-    width: 800px;
-    height: 500px;
-    margin: 20px auto;
-    padding: 30px;
-    background: white;
-    border: 15px solid #115680;
-    border-radius: 5px;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
 .certificate h2,p{
     margin: 10px;
     padding: 10px;
@@ -76,8 +61,8 @@ button:hover{
     text-align: center;
     position: relative;
 
-    border: 12px solid #115680;
-    border-radius: 10px;
+    /* border: 12px solid #115680; */
+    /* border-radius: 10px; */
 
     background: linear-gradient(
                 rgba(255,255,255,0.9),
@@ -88,6 +73,20 @@ button:hover{
     background-size: 300px;
     background-repeat: no-repeat;
     background-position: center;
+    /* width: 800px;
+    height: 500px; */
+    /* margin: 20px auto;
+    padding: 30px; */
+    background: white;
+    border: 8px solid #115680;
+    /* border-radius: 5px; */
+    border-radius: 0px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 7px #3498db;
 }
 /* #Institute{
     padding-left: 20px;
