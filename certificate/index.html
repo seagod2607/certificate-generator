@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container" >
+        <h2 id="cer">Certificate Generator</h2>
+            <!-- <img id="
+            hii" src="Maulana Azad NAtional Institute of Technology Bhopal.png" alt=""> -->
+
+            <input type="text" id="name" placeholder="Enter Student name" required/>
+            <input type="text" id="course" placeholder="Enter course name" required/>
+            <button onclick="generateCertificate()">generate Certificate</button>
+            <button onclick="downloadCertificate()">Download PNG</button>
+            <button onclick="downloadCertificateinpdf()">Download PDF</button>
+        </div>
+        <div class="certificate" id="certificate">
+            <h1>Certificate of Completion</h1>
+            <div>
+                <img src="Maulana Azad NAtional Institute of Technology Bhopal.png" alt="">
+                <h2 id="Institute">MAULANA AZAD NATIONAL INSTITIUTE OF TECHNOLOGY</h2>
+            </div>
+            <p>This is to Certify that </p>
+            <h2 id="cert-name">Your Name</h2>
+            <p>has succesfully complited</p>
+            <h3 id="cert-course">Course Name</h3>
+            <p>with dedication and outstanding performance.</p>
+        </div>
+    </div>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
