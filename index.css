@@ -36,20 +36,27 @@ button:hover{
 .certificate{
     width: 800px;
     height: 500px;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 30px;
     background: white;
     border: 15px solid #115680;
     border-radius: 5px;
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
-.certificate h1,h2,p{
-    margin: 20px;
+.certificate h2,p{
+    margin: 10px;
+    padding: 10px;
 }
 .certificate h2 {
     font-weight: bolder;
+    padding-right: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
 
 
 }
@@ -65,6 +72,7 @@ button:hover{
     height: 550px;
     margin: 40px auto;
     padding: 40px;
+    padding-bottom: 0%;
     text-align: center;
     position: relative;
 
@@ -80,13 +88,19 @@ button:hover{
     background-size: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
+/* #Institute{
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+} */
+
 .certificate h1{
     font-size: 40px;
     color: #115680;
     letter-spacing: 2px;
-    
+    margin: 20px;
+    padding: 20px;
 }
 .photo{
     width: 120px;
@@ -100,7 +114,6 @@ button:hover{
     font-size: 36px;
     color: #1a65d5;
 }
-
 #cert-course{
     font-weight: bold;
     font-size: 24px;
@@ -109,15 +122,20 @@ input{
     height: 36px;
     width: 200px;
 }
+
 img{
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 .certificate h1{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-left: 50px;
 
 }
 #certificate div{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 .certificate div img{
     height: 80px;
@@ -127,5 +145,4 @@ img{
 }
 #cert-name{
     color: rgb(26, 101, 213);
-
 }
