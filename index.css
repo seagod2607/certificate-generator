@@ -23,6 +23,7 @@
 button{
     padding: 10px 15px;
     margin: 5px;
+    width: 200px;
     background: #117824;
     color: white;
     border: none;
@@ -104,8 +105,10 @@ button:hover{
     font-weight: bold;
     font-size: 24px;
 }
-
-
+input{
+    height: 36px;
+    width: 200px;
+}
 img{
     opacity: 0.5;
 }
@@ -124,4 +127,5 @@ img{
 }
 #cert-name{
     color: rgb(26, 101, 213);
+
 }
