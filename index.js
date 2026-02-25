@@ -24,7 +24,7 @@ function downloadCertificateinpdf(){
     html2canvas(certificate, { scale: 2 }).then((canvas) =>{
         let imgData = canvas.toDataURL("image/png");
         let pdf = new jsPDF("landscape", "mm", "a4");
-        pdf.addImage(imgData, "PNG", 10, 10, 277, 190);
+        pdf.addImage(imgData, "PNG", 0, 0, 297, 210);
         pdf.save("certificate.pdf");
     });
 }
